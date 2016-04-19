@@ -14,6 +14,10 @@
 		185CFBE21B4E97360047C5B1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185CFBE11B4E97360047C5B1 /* Images.xcassets */; };
 		185CFBE51B4E97360047C5B1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185CFBE31B4E97360047C5B1 /* LaunchScreen.xib */; };
 		185CFBF11B4E97360047C5B1 /* testImageTurnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 185CFBF01B4E97360047C5B1 /* testImageTurnTests.m */; };
+		185CFBFB1B4E97450047C5B1 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 185CFBFA1B4E97450047C5B1 /* 4.jpg */; };
+		187DA7721B4E9D3300743CFC /* ChangeImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 187DA7711B4E9D3300743CFC /* ChangeImageView.m */; };
+		18CB3BE31B536A2500888EA1 /* ChangeTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CB3BE21B536A2500888EA1 /* ChangeTextView.m */; };
+		18CB3BE51B536EB400888EA1 /* x2_btn_scale.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CB3BE41B536EB400888EA1 /* x2_btn_scale.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,12 @@
 		185CFBEA1B4E97360047C5B1 /* testImageTurnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testImageTurnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		185CFBEF1B4E97360047C5B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		185CFBF01B4E97360047C5B1 /* testImageTurnTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testImageTurnTests.m; sourceTree = "<group>"; };
+		185CFBFA1B4E97450047C5B1 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		187DA7701B4E9D3300743CFC /* ChangeImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeImageView.h; sourceTree = "<group>"; };
+		187DA7711B4E9D3300743CFC /* ChangeImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeImageView.m; sourceTree = "<group>"; };
+		18CB3BE11B536A2500888EA1 /* ChangeTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeTextView.h; sourceTree = "<group>"; };
+		18CB3BE21B536A2500888EA1 /* ChangeTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeTextView.m; sourceTree = "<group>"; };
+		18CB3BE41B536EB400888EA1 /* x2_btn_scale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x2_btn_scale.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,8 @@
 		185CFBC81B4E97360047C5B1 = {
 			isa = PBXGroup;
 			children = (
+				18CB3BE41B536EB400888EA1 /* x2_btn_scale.png */,
+				185CFBFA1B4E97450047C5B1 /* 4.jpg */,
 				185CFBD31B4E97360047C5B1 /* testImageTurn */,
 				185CFBED1B4E97360047C5B1 /* testImageTurnTests */,
 				185CFBD21B4E97360047C5B1 /* Products */,
@@ -85,6 +97,10 @@
 				185CFBD91B4E97360047C5B1 /* AppDelegate.m */,
 				185CFBDB1B4E97360047C5B1 /* ViewController.h */,
 				185CFBDC1B4E97360047C5B1 /* ViewController.m */,
+				187DA7701B4E9D3300743CFC /* ChangeImageView.h */,
+				187DA7711B4E9D3300743CFC /* ChangeImageView.m */,
+				18CB3BE11B536A2500888EA1 /* ChangeTextView.h */,
+				18CB3BE21B536A2500888EA1 /* ChangeTextView.m */,
 				185CFBDE1B4E97360047C5B1 /* Main.storyboard */,
 				185CFBE11B4E97360047C5B1 /* Images.xcassets */,
 				185CFBE31B4E97360047C5B1 /* LaunchScreen.xib */,
@@ -199,7 +215,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				185CFBFB1B4E97450047C5B1 /* 4.jpg in Resources */,
 				185CFBE01B4E97360047C5B1 /* Main.storyboard in Resources */,
+				18CB3BE51B536EB400888EA1 /* x2_btn_scale.png in Resources */,
 				185CFBE51B4E97360047C5B1 /* LaunchScreen.xib in Resources */,
 				185CFBE21B4E97360047C5B1 /* Images.xcassets in Resources */,
 			);
@@ -219,9 +237,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				187DA7721B4E9D3300743CFC /* ChangeImageView.m in Sources */,
 				185CFBDD1B4E97360047C5B1 /* ViewController.m in Sources */,
 				185CFBDA1B4E97360047C5B1 /* AppDelegate.m in Sources */,
 				185CFBD71B4E97360047C5B1 /* main.m in Sources */,
+				18CB3BE31B536A2500888EA1 /* ChangeTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +436,7 @@
 				185CFBF61B4E97360047C5B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		185CFBF71B4E97360047C5B1 /* Build configuration list for PBXNativeTarget "testImageTurnTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +445,7 @@
 				185CFBF91B4E97360047C5B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
